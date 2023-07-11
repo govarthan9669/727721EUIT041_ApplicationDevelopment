@@ -1,0 +1,36 @@
+/* NavigationBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .username {
+    margin-right: 10px;
+  }
+  
+  .login,
+  .logout {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .cart {
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
