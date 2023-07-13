@@ -1,0 +1,7 @@
+.List {
+    padding: 2rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 0.5fr));
+  }
+  
