@@ -1,0 +1,13 @@
+.my-img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .fs-m {
+    font-size: medium;
+  }
+  

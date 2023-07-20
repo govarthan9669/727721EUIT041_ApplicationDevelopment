@@ -1,0 +1,32 @@
+.Container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 5rem auto 5rem;
+    grid-template-areas:
+      "h h h h"
+      "p p p p"
+      "f f f f";
+      background-color: rgb(197, 197, 197);
+      
+  }
+  
+  .categories {
+    grid-area: h;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -60px;
+    padding: 100px;
+    
+    /* grid-column: 1/-1; */
+  }
+  
+  
+  .products {
+    grid-area: p;
+    /* grid-column: 2/-1; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
