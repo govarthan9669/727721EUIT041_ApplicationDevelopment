@@ -1,0 +1,194 @@
+.mApp {
+    height: 100vh;
+    margin: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    /* background-color: #ff84ea; */
+    /* background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"); */
+    background-repeat: no-repeat;
+  }
+  
+  .mappAside {
+    width: 50%;
+    background-color: #98d9ff;
+    background-image: url("login.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 2%;
+   
+  }
+  
+  .mappForm {
+    width: 100%;
+    height:100%;
+    background-color: #ff90e3;
+    padding: 25px 40px;
+    overflow: auto;
+    border-radius: 1%;
+    
+    background-image: url("https://static.vecteezy.com/system/resources/previews/020/980/204/non_2x/gradient-color-abstract-background-gradient-mesh-design-for-covers-wallpapers-branding-business-cards-social-media-website-others-you-can-use-the-gradient-texture-for-backgrounds-vector.jpg");
+    
+  }
+  
+  .mpageSwitcher {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+  }
+  
+  .mpageSwitcherItem {
+    background-color: #40434e;
+    color: #9da6b1;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .mpageSwitcherItem-active {
+    background-color: #6b5b95;
+    color: white;
+  }
+  
+  .mpageSwitcherItem:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  
+  .mpageSwitcherItem:last-child {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .mformCenter {
+    margin-bottom: 100px;
+  }
+  
+  .mformTitle {
+    color: #707c8b;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+  
+  .mformTitleLink {
+    color: #707c8b;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7em;
+    margin: 0 10px;
+    padding-bottom: 5px;
+  }
+  
+  .mformTitleLink:first-child {
+    margin-left: 0;
+  }
+  
+  .mformTitleLink-active {
+    color: rgb(8, 8, 8);
+    border-bottom: 1px solid #6b5b95;
+  }
+
+  .centerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mformField {
+    margin-bottom: Center;
+  }
+  
+  .mformFieldLabel {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: rgb(0, 0, 0);
+  }
+  
+  .mformFieldInput {
+    width: 85%;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border-bottom: 1px solid #445366;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .mformFieldInput::placeholder {
+    color: #616e7f;
+  }
+  
+  .mformFieldButton {
+    background-color: #6b5b95;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 15px 70px;
+    font-size: 1.0em;
+    font-weight: 900;
+  }
+  
+  .mformFieldLink {
+    color: #66707d;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1.5px solid #6b5b95;
+    padding-bottom: 5px;
+  }
+  
+  .mformFieldCheckboxLabel {
+    color: #646f7d;
+    font-size: 0.9em;
+  }
+  
+  .mformFieldCheckbox {
+    position: relative;
+    top: 1.5px;
+  }
+  
+  .mformFieldTermsLink {
+    color: white;
+    border-bottom: 1px solid #6b5b95;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-left: 5px;
+  }
+  
+  .msocialMediaButtons {
+    padding: 10px 100px 10px 0px;
+  }
+
+
+  .centerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .roundedImage {
+    width: 200px; /* Adjust the width and height as needed */
+    height: 195px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+  
+  .roundedImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  

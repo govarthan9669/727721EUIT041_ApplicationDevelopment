@@ -1,0 +1,186 @@
+.App {
+    height: 100vh;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: #ffd17c;
+  }
+  
+  /* .appAside {
+    width: 50%;
+    background-color: #ffb95d;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/010/886/918/non_2x/online-grocery-shopping-user-ordering-groceries-online-using-a-mobile-app-isolated-on-white-hand-with-phone-makes-online-order-supermarket-basket-full-of-groceries-online-grocery-delivery-concept-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 12%;
+   
+
+  } */
+
+  
+  .appForm {
+    width:100%;
+    background-color: #ffd17c;
+    padding: 25px 40px;
+    overflow: auto;
+    
+    border-radius: 1%;
+    
+    
+  }
+  
+  .pageSwitcher {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+  }
+  
+  .pageSwitcherItem {
+    background-color: #40434e;
+    color: #9da6b1;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .pageSwitcherItem-active {
+    background-color: #6b5b95;
+    color: white;
+  }
+  
+  .pageSwitcherItem:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .pageSwitcherItem:last-child {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .formCenter {
+    margin-bottom: 100px;
+  }
+  
+  .formTitle {
+    color: #707c8b;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+  
+  .formTitleLink {
+    color: #707c8b;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7em;
+    margin: 0 10px;
+    padding-bottom: 5px;
+  }
+  
+  .formTitleLink:first-child {
+    margin-left: 0;
+  }
+  
+  .formTitleLink-active {
+    color: rgb(8, 8, 8);
+    border-bottom: 1px solid #6b5b95;
+  }
+  
+  .formField {
+    margin-bottom: 40px;
+  }
+  
+  .formFieldLabel {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: rgb(0, 0, 0);
+  }
+  .formFieldInput {
+    width: 85%;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border-bottom: 1px solid #445366;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .formFieldInput::placeholder {
+    color: #616e7f;
+  }
+  
+  .formFieldButton {
+    background-color: #6b5b95;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 15px 70px;
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+  
+  .formFieldLink {
+    color: #66707d;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1.5px solid #6b5b95;
+    padding-bottom: 5px;
+  }
+  
+  .formFieldCheckboxLabel {
+    color: #646f7d;
+    font-size: 0.9em;
+  }
+  
+  .formFieldCheckbox {
+    position: relative;
+    top: 1.5px;
+  }
+  
+  .formFieldTermsLink {
+    color: white;
+    border-bottom: 1px solid #6b5b95;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-left: 5px;
+  }
+  
+  .socialMediaButtons {
+    padding: 10px 100px 10px 0px;
+  }
+  
+
+/* Common styles for both desktop and mobile */
+/* Add your existing styles here */
+
+/* Styles specific to mobile view */
+@media screen and (max-width: 768px) {
+  /* Add styles for screens with a maximum width of 768px (e.g., smartphones) */
+
+  /* Example: Adjust the formFieldLabel font-size for mobile */
+  .formFieldLabel {
+    font-size: 16px;
+  }
+
+  /* Add any other styles you want to adjust for mobile view */
+}
+
+/* Styles specific to larger screens (e.g., tablets, desktops) */
+@media screen and (min-width: 769px) {
+  /* Add styles for screens with a minimum width of 769px */
+
+  /* Example: Adjust the formFieldLabel font-size for larger screens */
+  .formFieldLabel {
+    font-size: 18px;
+  }
+
+  /* Add any other styles you want to adjust for larger screens */
+}
