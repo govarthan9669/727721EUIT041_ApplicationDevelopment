@@ -1,0 +1,35 @@
+.profile-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #570707;
+    border-radius: 5px;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .profile-details {
+    margin-left: 20px;
+  }
+  
+  .profile-details h2 {
+    margin: 0;
+  }
+  
+  .profile-bio {
+    margin-top: 20px;
+  }
+  
+  .profile-bio h2 {
+    margin-top: 0;
+  }

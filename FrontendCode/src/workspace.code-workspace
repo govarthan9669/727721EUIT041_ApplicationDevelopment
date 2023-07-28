@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../"
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true,
+		"editor.wordWrap": "on",
+		"emmet.includeLanguages": {
+			"javascript": "javascriptreact"
+		}
+	}
+}
